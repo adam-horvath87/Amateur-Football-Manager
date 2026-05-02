@@ -1,6 +1,6 @@
 # ⚽ Foci Manager
 
-Egy teljes értékű foci menedzser játék Pygame alapon, Linux-on futtatható.
+Egy kis amatőr foci menedzser játék Pygame alapon.
 
 ## Telepítés
 
@@ -19,11 +19,9 @@ python3 main.py
 chmod +x play.sh && ./play.sh
 ```
 
-## Játékmódok
-
-### Team mód
+### Alap mód
 - Add meg csapatod nevét
-- Irányítsd az egész csapatot
+- Mezeik színét
 - 20 csapatos bajnokság, 38 meccs/szezon
 
 ## Funkciók
@@ -36,19 +34,17 @@ chmod +x play.sh && ./play.sh
 ### 🏃 Edzés menü
 - 7 napos edzésprogram (hétfő-vasárnap)
 - Szombat = meccsnap, nincs edzés
-- Naponta 3 edzéssession
-- Minden sessiont kattintással lehet váltani (8 skill + kondi)
+- Minden sessiont kattintással lehet váltani
 - Személyi edzés beállítható játékosonként
-- Ha a személyi edzés = csapatedzés → 1.3x gyorsabb fejlődés
 
 ### 🎯 Taktika menü
-- 9 felállás választható (4-4-2, 4-3-3, stb.)
+- Dinamikus felállás
 - Játékosok drag & drop-pal helyezhetők el a pályán
 - Jobb oldali lista → balra a pályára húzd
 
 ### 🏆 Tabella
 - Élő tabella, pontok, gólkülönbség szerint rendezve
-- Saját csapat arannyal kiemelve
+- Saját csapat kiemelve
 
 ### ⚽ Meccsek
 - Minden szombat meccs szimulálódik
@@ -56,20 +52,8 @@ chmod +x play.sh && ./play.sh
 - Mozgó játékosok, labda, eredménytábla, eseménynapló
 
 ## Fejlődési rendszer
-- Minden játékos 17 évesen indul
-- 1 skillpont = 20 edzés (17 éves korban)
-- +5 edzés szükséges minden életkorévvel
+- Minden játékos Random generált (15-35 éves korig)
+- 28 éves korukig fejlődnek a játékosok, utána lassú hanyatlás
 - Szezon végén automatikusan öregszenek a játékosok
 
-## Pozíciók és skillek
-
-| Pozíció | Elsődleges | Másodlagos |
-|---------|-----------|-----------|
-| Kapus | Kapusteljesítmény | Állóképesség, Szabadrúgás |
-| Szélsőhátvéd | Védés, Szélső | Állóképesség, Passz |
-| Középsőhátvéd | Védés, Állóképesség | Passz, Játékszervezés |
-| Szélső | Szélső, Állóképesség | Passz, Játékszervezés |
-| Véd. középpályás | Védés, Játékszervezés | Állóképesség, Passz |
-| Közép. középpályás | Passz, Játékszervezés | Állóképesség, Lövés |
-| Tám. középpályás | Játékszervezés, Lövés | Állóképesség, Passz |
 | Csatár | Lövés, Állóképesség | Passz, Játékszervezés |
