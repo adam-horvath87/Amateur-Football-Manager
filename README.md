@@ -48,6 +48,7 @@ chmod +x play.sh && ./play.sh
 
 ### ⚽ Meccsek
 - Minden szombat meccs szimulálódik
+- 2D-s megjelenítés
 - Saját meccset 7 perces animációban lehet végignézni
 - 5 csere lehetséges
 - A meccs megállítható és felgyorsítható
