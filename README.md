@@ -43,7 +43,7 @@ chmod +x play.sh && ./play.sh
 - Jobb oldali lista → balra a pályára húzd
 
 ### 🏆 Tabella
-- Élő tabella, pontok, gólkülönbség szerint rendezve
+- Élő tabella, pontok
 - Saját csapat kiemelve
 
 ### ⚽ Meccsek
