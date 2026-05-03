@@ -59,3 +59,4 @@ chmod +x play.sh && ./play.sh
 - Minden játékos Random generált (15-35 éves korig)
 - 28 éves korukig fejlődnek a játékosok, utána lassú hanyatlás
 - Szezon végén automatikusan öregszenek a játékosok
+- Ha egy játékos a szezonban 35 éves, szezon végén visszavonul jön helyette egy 15 éves fiatal.
