@@ -29,7 +29,8 @@ chmod +x play.sh && ./play.sh
 ### 📋 Csapat menü
 - Minden játékos listázva
 - Kattints a nevükre → skill profil megnyílik
-- Zöld ↑ jelzi a fejlődést
+- Zöld fel nyíl jelzi a fejlődést
+- Piros le nyíl jelzi a visszafejlődést (28 éves kor után)
 
 ### 🏃 Edzés menü
 - 7 napos edzésprogram (hétfő-vasárnap)
