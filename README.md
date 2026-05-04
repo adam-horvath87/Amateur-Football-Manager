@@ -1,4 +1,4 @@
-# ⚽ Amatőr Foci Manager ver.: 0.1.0
+# ⚽ Amatőr Foci Manager ver.: 0.1.5
 
 Egy kis amatőr foci menedzser játék Pygame alapon.
 
